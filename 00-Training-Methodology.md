@@ -113,9 +113,9 @@ Read them in order. The sessions reference each other intentionally — that's t
 
 ## A word on tooling choice
 
-You asked which library you should use. Short answer: **xUnit**.
+Why **xUnit** was chosen. 
 
-Long answer: there are three credible options for .NET — xUnit, NUnit, and MSTest. Microsoft's own .NET MAUI guidance explicitly recommends xUnit. xUnit was written by the original creators of NUnit after they learned what NUnit got wrong; it has the cleanest design, no `[SetUp]`/`[TearDown]` (which encourage bad patterns — covered in session 1), and the strongest ecosystem in modern .NET. Pick xUnit and don't relitigate it.
+There are three credible options for .NET — xUnit, NUnit, and MSTest. Microsoft's own .NET MAUI guidance explicitly recommends xUnit. xUnit was written by the original creators of NUnit after they learned what NUnit got wrong; it has the cleanest design, no `[SetUp]`/`[TearDown]` (which encourage bad patterns — covered in session 1), and the strongest ecosystem in modern .NET. Pick xUnit and don't relitigate it.
 
 For mocking we'll cover both **Moq** and **NSubstitute**. Moq has been the .NET standard for a decade; NSubstitute has a friendlier API and is gaining ground. You should be able to read both — pick whichever you prefer for your own code.
 
